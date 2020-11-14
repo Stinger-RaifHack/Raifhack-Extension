@@ -19,10 +19,15 @@ function sendRequest(method, url, body=null) {
         method: method,
         body: body,
         headers: headers
-    }).then(response => {return response
+    }).then(response => {return response["qrUrl"]
     })
 }
 sendRequest('POST', url_raif, data_json)
     .then(data => console.log(data))
-    .catch(err => console.log(err))
+    .catch(err => console.log(err));
 
+
+    document.getElementById('todownload').onclick = function() {
+        this.href = myData;
+        this.download = 'data.txt';
+    }
