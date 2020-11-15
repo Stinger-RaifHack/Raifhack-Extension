@@ -29,31 +29,19 @@
             </div>
         </div>
     </nav>
-    <header class="d-flex masthead" style="background-image: url('assets/img/bg-masthead.jpg');height: 600px;">
-        <div class="container my-auto text-center">
-            <h1 class="mb-1">Stinger</h1>
-            <h3 class="mb-5">
-                <em>Просто. Чётко. Компетентно</em>
-            </h3>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" 
-            href= "qr-code.html"
-            onclick="
-                sendRequest('POST', url_raif, data_json)
-                    .then(data => {
-                    console.log(data)
-                    //changeImage(data['qrUrl']);
-                })
-                    .catch(err => console.log(err));
-                    "
-                    >
-                Сгенерировать QR код
-            </a>
-            <figure>
-                <img src="https://test.ecom.raiffeisen.ru/api/sbp/v1/qr/AS67EF83DFC64EF999DC665F38A26FCB/image">
-            </figure>
-            <div class="overlay"></div>
+    <section id="about" class="content-section bg-light">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Мы армяне</h2>
+                    <p class="lead mb-5"><span>А с армянами шутки плохи&nbsp;</span>
+                        <footer class="footer text-center">
+        <a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a></footer>
+                        </p><a class="btn btn-dark btn-xl js-scroll-trigger" role="button"
+                        href="services.html">Что мы предлагаем</a></div>
+            </div>
         </div>
-    </header>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
@@ -61,5 +49,3 @@
 </body>
 
 </html>
-
-
