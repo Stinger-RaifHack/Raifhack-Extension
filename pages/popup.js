@@ -1,12 +1,11 @@
+dt = new Date()
+create_date = dt.getFullYear()+'-'+dt.getMonth()+'-'+dt.getDate()+'T'+dt.getHours()+':'+dt.getMinutes()+':'+dt.getSeconds()+'+03:00'
 data_json = JSON.stringify({
-    "additionalInfo": "Доп информация",
-    "amount": 10,
-    "createDate": "2020-11-15T09:14:38.107227+03:00",
+    "amount": Math.floor(Math.random()*10000),
+    "createDate": create_date,
     "currency": "RUB",
-    "order": "1-22-333",
-    "paymentDetails": "Назначение платежа",
-    "qrType": "QRStatic",
-    "qrExpirationDate": "2022-11-15T09:14:38.107227+03:00",
+    "order": "STINGER" + Math.floor(Math.random()*10000).toString(),
+    "qrType": "QRDynamic",
     "sbpMerchantId": "MA749377"
   })
 const url_raif = 'https://test.ecom.raiffeisen.ru/api/sbp/v1/qr/register';
