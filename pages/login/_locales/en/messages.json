@@ -5,82 +5,77 @@
 	},
 
 	"extDescription" : {
-		"message" : "Configure users credentials for each environment of your development web-projects. It's more than an autocomplete feature :-)",
+		"message" : "Настройте учётную запись каждого пользователя",
 		"description" : "en-desc"
 	},
 
 	"msgHomeDescription" : {
-		"message" : "Please, select from the data-collection created, the user that you want to inject into webapp.",
+		"message" : "Выберите пользователя для приложения.",
 		"description" : "en-Lorem Ipsum"
 	},
 
 	"msgSelectEnvironment" : {
-		"message" : "Select an environment:",
+		"message" : "Выберите окружение:",
 		"description" : ""
 	},
 
 	"msgSelectEnvironmentOption" : {
-		"message" : "(Please select an environment)",
+		"message" : "(Выберите окружение)",
 		"description" : ""
 	},
 
 	"msgSelectUser" : {
-		"message" : "Select an user:",
+		"message" : "Выберите пользователя:",
 		"description" : ""
 	},
 
 	"msgSelectCredsOption" : {
-		"message" : "(Please select credentials)",
-		"description" : ""
-	},
-
-	"msgSlaHome" : {
-		"message" : "SLA Home",
+		"message" : "(Выберите учётную запись)",
 		"description" : ""
 	},
 
 	"msgLoginInject" : {
-		"message" : "Insert!",
+		"message" : "Вставить",
 		"description" : ""
 	},
 
 	"msgInjectNotFound" : {
-		"message" : "Neither user field nor pass field have been found...",
+		"message" : "Поле пароля и имени не найдено",
 		"description" : ""
 	},
 
 	"msgInjectUsernameNotFound" : {
-		"message" : "User field not found with the given selector",
+		"message" : "Поле имени не найдено",
 		"description" : ""
 	},
 
 	"msgInjectPasswordNotFound" : {
-		"message" : "Password field not found with the given selector",
+		"message" : "Поле пароля не найдено",
 		"description" : ""
 	},
 
 	"msgSettings" : {
-		"message" : "Settings",
+		"message" : "Настройки",
 		"description" : ""
 	},
 
 	"msgMoreOptions" : {
-		"message" : "More options",
+		"message" : "Больше настроек",
 		"description" : ""
 	},
 
 	"msgCleanData" : {
-		"message" : "Clean all data",
+		"message" : "Удалить все данные",
 		"description" : ""
 	},
 
 	"msgHelp" : {
-		"message" : "msgHelp",
+		"message" : "Помощь",
 		"description" : ""
 	},
 
 	"msgExportSettings" : {
-		"message" : "Export configuration",
+		"message" : "Экспорт учётных данных",
 		"description" : ""
 	},
 
@@ -90,32 +85,22 @@
 	},
 
 	"msgImportSettings" : {
-		"message" : "Import configuration",
+		"message" : "Импорт учётных данных",
 		"description" : ""
 	},
 
 	"msgImportFromFile" : {
-		"message" : "From file",
+		"message" : "Из файла",
 		"description" : ""
 	},
 
 	"msgExportToClipboard" : {
-		"message" : "To clipboard",
+		"message" : "В буфер обмена",
 		"description" : ""
 	},
 
 	"msgSuggestComms" : {
-		"message" : "Suggest &amp; comments",
-		"description" : ""
-	},
-
-	"msgContact" : {
-		"message" : "Contact with the owner",
-		"description" : ""
-	},
-
-	"msgGithubFork" : {
-		"message" : "Fork it on Github",
+		"message" : "Обратная связь",
 		"description" : ""
 	},
 
@@ -130,7 +115,7 @@
 	},
 
 	"msgAboutContent2" : {
-		"message" : "In order to inject the credentials, you have to supply an expression (jQuery selector style) to fill the input (e.g., '#userInput' ó '.login-form > input.password').",
+		"message" : "In order to inject the учётные данные, you have to supply an expression (jQuery selector style) to fill the input (e.g., '#userInput' ó '.login-form > input.password').",
 		"description" : ""
 	},
 
@@ -144,38 +129,33 @@
 		"description" : ""
 	},
 
-	// ------------------------------------------------------
-	//                Preferences
-	// ------------------------------------------------------
-
-	// Environments tab
 	"msgPreferenceTitle" : {
-		"message" : "Environment & Users Configuration",
+		"message" : "Настройка окружения и пользователей",
 		"description" : ""
 	},
 
 	"msgPreferencesIntroduction" : {
-		"message" : "Plugin configuration",
+		"message" : "Настройка расширения",
 		"description" : ""
 	},
 
 	"msgEnvPreferencesTab" : {
-		"message" : "Environments management",
+		"message" : "Управление окружением",
 		"description" : ""
 	},
 
 	"msgEnvironments" : {
-		"message" : "Environments",
+		"message" : "Окружения",
 		"description" : ""
 	},
 
 	"msgCredentials" : {
-		"message" : "Credentials",
+		"message" : "Учётные записи",
 		"description" : ""
 	},
 
 	"msgPreferences" : {
-		"message" : "Preferences",
+		"message" : "Предпочтения",
 		"description" : ""
 	},
 
@@ -185,323 +165,313 @@
 	},
 
 	"msgModifyEnv" : {
-		"message" : "Modify env.",
+		"message" : "Изменить окружение",
 		"description" : ""
 	},
 
 	"msgDeleteEnv" : {
-		"message" : "Delete env.",
+		"message" : "Удалить окружение",
 		"description" : ""
 	},
 
 	"msgCreateNewEnvTitle" : {
-		"message" : "Create a new environment",
+		"message" : "Создать окружение",
 		"description" : ""
 	},
 
 	"msgEnvLabel" : {
-		"message" : "Environment:",
+		"message" : "Окружение:",
 		"description" : ""
 	},
 
 	"msgAddEnvButton" : {
-		"message" : "Add this environment",
+		"message" : "Добавить это окружение",
 		"description" : ""
 	},
 
 	"msgModifyEnvTitle" : {
-		"message" : "Modify an existing environment",
+		"message" : "Изменить существующее окружение",
 		"description" : ""
 	},
 
 	"msgModifyEnvSelectorLabel" : {
-		"message" : "Environments:",
+		"message" : "Окружения:",
 		"description" : ""
 	},
 
 	"msgModifyEnvDefaultOption" : {
-		"message" : "(Please select an environment to modify)",
+		"message" : "(Выбор окружения для изменения)",
 		"description" : ""
 	},
 
 	"msgModifyEnvLabel" : {
-		"message" : "Please, modify the new environment name:",
+		"message" : "Пожалуйста, измените имя окружения:",
 		"description" : ""
 	},
 
 	"msgModifyEnvButton" : {
-		"message" : "Modify this environment",
+		"message" : "Изменить окружение",
 		"description" : ""
 	},
 
 	"msgDeleteEnvSelectorLabel" : {
-		"message" : "Environment",
+		"message" : "Окружение",
 		"description" : ""
 	},
 
 	"msgDeleteEnvTitle" : {
-		"message" : "Delete an existing environment",
+		"message" : "Удалить окружение",
 		"description" : ""
 	},
 
 	"msgDeleteEnvDefaultOption" : {
-		"message" : "(Please select an environment to delete)",
+		"message" : "(Выберите окружение для удаления)",
 		"description" : ""
 	},
 
 	"msgDeleteEnvButton" : {
-		"message" : "Delete this environment",
+		"message" : "Удалить это окружение",
 		"description" : ""
 	},
 
-	// User tab
 	"msgUserCredsPreferencesTab" : {
-		"message" : "User credentials management",
+		"message" : "Управление учётными записями пользователя",
 		"description" : ""
 	},
 
 	"msgAddNewUser" : {
-		"message" : "Add new user",
-		"description" : ""
-	},
-
-	"msgModifyUser" : {
-		"message" : "Modify user",
+		"message" : "Добавить нового пользователя",
 		"description" : ""
 	},
 
 	"msgDeleteUser" : {
-		"message" : "Delete user",
+		"message" : "Удалить пользователя",
 		"description" : ""
 	},
 
 	"msgCreateNewUser" : {
-		"message" : "Create a new user entry",
+		"message" : "Создать новую запись пользователя",
 		"description" : ""
 	},
 
 	"msgCreateUserLabel" : {
-		"message" : "Environment *",
+		"message" : "Окружение *",
 		"description" : ""
 	},
 
 	"msgCreateUserEnvSelector" : {
-		"message" : "(Please select an environment)",
+		"message" : "(Пожалуйста выберите окружение)",
 		"description" : ""
 	},
 
 	"msgAddUserUsernameLabel" : {
-		"message" : "User *",
+		"message" : "Пользователь *",
 		"description" : ""
 	},
 
 	"msgAddUserPasswordLabel" : {
-		"message" : "Password *",
+		"message" : "Пароль *",
 		"description" : ""
 	},
 
 	"msgAddUserUserSelector" : {
-		"message" : "User selector",
+		"message" : "Выбор пользователя",
 		"description" : ""
 	},
 
 	"msgAddUserPassSelector" : {
-		"message" : "Password selector",
+		"message" : "Выбор пароля",
 		"description" : ""
 	},
 
 	"msgAddUserDescription" : {
-		"message" : "Description",
+		"message" : "Описание",
 		"description" : ""
 	},
 
 	"msgAddNewUserButton" : {
-		"message" : "Add these credentials",
+		"message" : "Добавить учётные данные",
 		"description" : ""
 	},
 
 	"msgModifyUser" : {
-		"message" : "Modify an existing user credentials",
+		"message" : "Изменить существующие учётные данные",
 		"description" : ""
 	},
 
 	"msgEditUserLabel" : {
-		"message" : "Environment",
+		"message" : "Окружение",
 		"description" : ""
 	},
 
 	"msgEditUserEnvSelector" : {
-		"message" : "(Please select an environment)",
+		"message" : "(Пожалуйста выберите окружение)",
 		"description" : ""
 	},
 
 	"msgEditUserEnvSelectorLabel" : {
-		"message" : "User",
+		"message" : "Пользователь",
 		"description" : ""
 	},
 
 	"msgModifyUserSelector" : {
-		"message" : "(Please select an user)",
+		"message" : "(Пожалуйста выберите пользователя)",
 		"description" : ""
 	},
 
 	"msgEditUserUserLabel" : {
-		"message" : "User *",
+		"message" : "Пользователь *",
 		"description" : ""
 	},
 
 	"msgEditUserPassLabel" : {
-		"message" : "Password *",
+		"message" : "Пароль *",
 		"description" : ""
 	},
 
 	"msgEditUserUserSelectorLabel" : {
-		"message" : "User selector",
+		"message" : "Выбор пользователя",
 		"description" : ""
 	},
 
 	"msgEditUserPassSelectorLabel" : {
-		"message" : "Password selector",
+		"message" : "Выбор пароля",
 		"description" : ""
 	},
 
 	"msgEditUserDescriptionLabel" : {
-		"message" : "Description",
+		"message" : "Описание",
 		"description" : ""
 	},
 
 	"msgEditUserButton" : {
-		"message" : "Modify these credentials",
+		"message" : "Измените эти учётные данные",
 		"description" : ""
 	},
 
 	"msgModifyUserTitle" : {
-		"message" : "Modify credentials",
+		"message" : "Измените учётные данные",
 		"description" : ""
 	},
 
 	"msgDeleteUserTitle" : {
-		"message" : "Delete an existing credentials",
+		"message" : "Удалить учётные данные",
 		"description" : ""
 	},
 
 	"msgDeleteUserLabel" : {
-		"message" : "Environment",
+		"message" : "Окружение",
 		"description" : ""
 	},
 
 	"msgDeleteUserEnvSelector" : {
-		"message" : "(Please select an environment)",
+		"message" : "(Пожалуйста выберите окружение)",
 		"description" : ""
 	},
 
 	"msgDeleteUserEnvSelectorLabel" : {
-		"message" : "User",
+		"message" : "Пользователь",
 		"description" : ""
 	},
 
 	"msgDeleteUserSelector" : {
-		"message" : "(Please select an user)",
+		"message" : "(Пожалуйста выберите пользователя)",
 		"description" : ""
 	},
 
 	"msgDeleteUserButton" : {
-		"message" : "Delete these credentials",
+		"message" : "Удалите учётные данные",
 		"description" : ""
 	},
 
-	// Preferences tab
 	"msgExtesionPreferencesTab" : {
-		"message" : "Preferences",
+		"message" : "Предпочтения",
 		"description" : ""
 	},
 
 
-	// ------------------------------------------------------
-	//                Errors
-	// ------------------------------------------------------
 	"msgEnvAddedOK" : {
-		"message" : "Environment added! :-)",
+		"message" : "Окружение добавлено",
 		"description" : ""
 	},
 
 	"msgEnvEmptyName" : {
-		"message" : "You have to write a name",
+		"message" : "Вы должны написать имя",
 		"description" : ""
 	},
 
 	"msgEnvModifiedOK" : {
-		"message" : "Environment modified! :-)",
+		"message" : "Окружение изменено",
 		"description" : ""
 	},
 
 	"msgEnvNameNeeded" : {
-		"message" : "You have to supply a new environment name",
+		"message" : "Вы должны указать новое имя среды",
 		"description" : ""
 	},
 
 	"msgEnvDeletedOK" : {
-		"message" : "Environment deleted! :-)",
+		"message" : "Окружение удалено",
 		"description" : ""
 	},
 
 	"msgEnvDeleteNoSelectedItem" : {
-		"message" : "You have to select one item!",
+		"message" : "Вы должны выбрать что-то одно!",
 		"description" : ""
 	},
 
 	"msgCredentialsAddedOK" : {
-		"message" : "Users credentials succesfully added! :-)",
+		"message" : "Учётные данные пользователя успешно добавлены",
 		"description" : ""
 	},
 
 	"msgCredentialsModifiedOK" : {
-		"message" : "Users credentials succesfully modified! :-)",
+		"message" : "Учётные данные пользователя успешно изменены",
 		"description" : ""
 	},
 
 	"msgSelectAnEnvironment" : {
-		"message" : "Please, select an environment first",
+		"message" : "Сначала выберите окружение",
 		"description" : ""
 	},
 
 	"msgSelectCredentialsToDelete" : {
-		"message" : "Please, select the credentials to delete",
+		"message" : "Пожалуйста, выберите the учётные данные для удаления",
 		"description" : ""
 	},
 
 	"msgCredentialsDeletedOK" : {
-		"message" : "Users credentials succesfully deleted! :-)",
+		"message" : "Учётные данные пользователя успешно удалены",
 		"description" : ""
 	},
 
 	"msgSelectOneEnvironment" : {
-		"message" : "Please, select one environment...",
+		"message" : "Пожалуйста, выберите одно окружение",
 		"description" : ""
 	},
 
 	"msgUsernameNeeded" : {
-		"message" : "Please, write the username",
+		"message" : "Пожалуйста, напишите имя пользователя",
 		"description" : ""
 	},
 
 	"msgPasswordNeeded" : {
-		"message" : "Please, write the password",
+		"message" : "Пожалуйста, напишите пароль",
 		"description" : ""
 	},	
 
 	"msgAnErrorHasOcurred" : {
-		"message" : "An error has occurred",
+		"message" : "Произошла ошибка",
 		"description" : ""
 	},
 
 	"msgSelectAnUser" : {
-		"message" : "Select an user",
+		"message" : "Выберите пользователя",
 		"description" : ""
 	},
 
 	"msgErrorDeletingConfiguration" : {
-		"message" : "Error deleting configuration",
+		"message" : "Ошибка при удаление настроек",
 		"description" : ""
 	}
 
