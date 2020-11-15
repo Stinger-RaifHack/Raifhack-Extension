@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
     <script src="popup.js"></script>
+    
 </head>
 
 <body id="page-top"><a class="menu-toggle rounded" href="#"><i class="fa fa-bars"></i></a>
@@ -34,12 +35,15 @@
             <h3 class="mb-5">
                 <em>Просто. Чётко. Компетентно</em>
             </h3>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" role="button"
+            <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" 
+            href= "qr-code.html"
             onclick="
-            document.getElementById('todownload').onclick = function() {
-        this.href = myData;
-        this.download = 'data.txt';
-    }
+                sendRequest('POST', url_raif, data_json)
+                    .then(data => {
+                    console.log(data)
+                    //changeImage(data['qrUrl']);
+                })
+                    .catch(err => console.log(err));
                     "
                     >
                 Сгенерировать QR код

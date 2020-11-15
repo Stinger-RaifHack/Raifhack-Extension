@@ -19,15 +19,23 @@ function sendRequest(method, url, body=null) {
         method: method,
         body: body,
         headers: headers
-    }).then(response => {return response["qrUrl"]
+    }).then(response => { return response.json()
     })
 }
-sendRequest('POST', url_raif, data_json)
-    .then(data => console.log(data))
-    .catch(err => console.log(err));
+/*function goToQR(img)
+{
+	url = "qr-code.html?image="+img
+	document.location.href = url;
+}*/
+/*sendRequest('POST', url_raif, data_json)
+    .then(data => {
+        console.log(data)
+        //alert(data["qrUrl"])
+    })
+    .catch(err => console.log(err));*/
+//let image = document.querySelector('.img')
+//function getImage(){return image}
+function changeImage(img){
+    document.querySelector('.img').src = img
+}
 
-
-    document.getElementById('todownload').onclick = function() {
-        this.href = myData;
-        this.download = 'data.txt';
-    }
